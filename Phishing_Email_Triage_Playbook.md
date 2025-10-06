@@ -1,6 +1,6 @@
 # SOC Playbook — Phishing Email Triage
 **Author:** Divyanshu Ganeshwani  
-**Date:** Jul 2025 – Sep 2025  
+**Date:** Jul 2025
 **Environment:** Personal lab & course lab exercises (non-production)
 
 ## Objective
