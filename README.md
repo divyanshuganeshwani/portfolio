@@ -21,15 +21,16 @@ This repository contains **Tier-1 Security Operations Center (SOC)** artifacts c
 ---
 
 ## Certifications & Training (relevant)
-- Google Cybersecurity Professional Certificate (Coursera)  
-- Cisco Networking Academy: Introduction to Cybersecurity, Cyber Threat Management, Network Defense, Endpoint Security, Networking Devices & Initial Configuration, Junior Cybersecurity Analyst Path  
-- TCM Security — SOC 101 (Security Operations)  
-- Microsoft Learn — SC-200 learning modules  
-- Cybrary — Cybersecurity Fundamentals
+- Google Cybersecurity Professional Certificate
+- Cisco Networking Academy: Introduction to Cybersecurity, Cyber Threat Management, Networking Basics, Network Defense, Endpoint Security, Networking Devices & Initial Configuration, Junior Cybersecurity Analyst Career Path Exam.
+- TCM Security — Security Operations (SOC) 101 course
+- Study modules for Security Operations Analyst SC-200
+- Cybrary: Cybersecurity Basics, Entry-Level Cybersecurity Training.
+- GeeksforGeeks - Cyber Security - Skill Up (Ongoing)
 
 ---
 
 ## Disclaimer
-These projects are educational. They were executed in a personal lab or as course labs using synthetic/demo data. They are **not** derived from any real organization's production incidents. Do not use any items in this repository to attempt intrusive or destructive actions against systems for which you do not have explicit authorization.
+These projects are for educational purposes. They were conducted in a personal or academic lab environment using synthetic or demo data. None of the work is derived from actual production incidents at any real organization. Furthermore, I have never used any techniques or tools from this repository to conduct intrusive or destructive actions against systems without explicit authorization.
 
 ---
