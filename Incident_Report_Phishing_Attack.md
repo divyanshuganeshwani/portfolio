@@ -42,6 +42,5 @@ On October 2, 2025, a simulated phishing email campaign targeted multiple users 
 - Recommended email authentication checks (SPF/DKIM/DMARC) be verified on any real deployments.
 
 ## 7. Attachments
-- `Phishing_Email_Triage_Playbook.md`
-- `Failed_Login_Detection_KQL_Query.kql`
-- IOC list (example): `ioc_phishing_example.csv` 
+- https://github.com/divyanshuganeshwani/portfolio/blob/main/Phishing_Email_Triage_Playbook.md
+- https://github.com/divyanshuganeshwani/portfolio/blob/main/Failed_Login_Detection_KQL_Query.kql
