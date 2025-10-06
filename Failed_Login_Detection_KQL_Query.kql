@@ -1,0 +1,12 @@
+// File: Failed_Login_Detection_KQL_Query.kql
+// Purpose: Detect multiple failed login attempts (possible brute force) within 15 minutes
+// Author: Divyanshu Ganeshwani
+// Environment: Microsoft Sentinel / Log Analytics (use with demo/test data)
+
+SecurityEvent
+| where EventID == 4625        // Windows failed logon event
+| extend IPAddress = tostring(IpAddress), Account = tostring(Account)
+| summarize FailedLogins = count() by IPAddress, Account, bin(TimeGenerated, 15m)
+| where FailedLogins > 10
+| project TimeGenerated, IPAddress, Account, FailedLogins
+| sort by FailedLogins desc
