@@ -1,0 +1,11 @@
+// File: Suspicious_Login_KQL_Query.kql
+// Purpose: Detect a user signing in from more than one country within 24 hours
+// Author: Divyanshu Ganeshwani
+// Environment: Microsoft Sentinel / SigninLogs (use with demo/test data)
+
+SigninLogs
+| extend Country = tostring(LocationDetails["countryOrRegion"])
+| summarize Countries = make_set(Country), Count = count() by UserPrincipalName, bin(TimeGenerated, 1d)
+| where array_length(Countries) > 1
+| project TimeGenerated, UserPrincipalName, Countries, Count
+| sort by Count desc
